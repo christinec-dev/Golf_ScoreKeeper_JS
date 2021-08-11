@@ -1,0 +1,92 @@
+/*------------------- Credentials -------------------------- 
+Author: Christine Coomans
+Date Created: 2020/09/11
+/*----------------------------------------------------------*/
+
+/*------------------- General Styling -----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+    padding: 10px;
+}
+
+body {
+    background-color: #2cb57e;
+    background-image: url("https://www.transparenttextures.com/patterns/classy-fabric.png");
+}
+
+/*------------------- Text Styling -----------------------*/
+h1 {
+    font-size: 55px;
+    color: rgb(247, 247, 247);
+    text-shadow: 2px 2px rgba(30, 30, 30, 0.762);
+    font-family: 'Fredoka One',
+        cursive;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    background-color: rgb(29, 81, 72);
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+p {
+    padding-top: 23px;
+    font-weight: 400;
+    color: #ffff;
+}
+
+/*-------------------Visuals Styling -----------------------*/
+img {
+    width: 125px;
+    margin-top: -7em;
+    margin-left: 35em;
+    padding: 0;
+}
+
+.btn {
+    width: 27%;
+    background-color: rgba(185, 238, 159, 0.823);
+    box-shadow: 1px 1px #2323237b;
+    font-weight: bold;
+    color: #232323d0;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: rgb(29, 81, 72);
+    color: rgba(185, 238, 159, 0.823);
+    ;
+}
+
+/*------------------- Entry Styling -----------------------*/
+
+.prompt {
+    margin-top: 1em;
+}
+
+.tabular {
+    margin-top: 1em;
+}
+
+input {
+    width: 35%;
+    box-shadow: 1px 1px #2323237b;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 3px 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+input:focus {
+    outline-color: azure;
+    background-color: rgb(29, 81, 72);
+    color: #fff;
+}
