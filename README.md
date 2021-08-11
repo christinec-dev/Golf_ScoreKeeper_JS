@@ -1,6 +1,6 @@
 # Golf Scorekeeper App
 
-This repository contains a fully-fledged, working Javascript Gold Scorekeeper Application that I did in my spare time. This app will allow you to enter players and their scores for 11 rounds, and then display it intabular form.
+This repository contains a fully-fledged, working Javascript Gold Scorekeeper Application that I did in my spare time. This app will allow you to enter players and their scores for 11 rounds, and then display it in tabular form.
 
 This app was created by me on 2020/09/11 for practice purposes.
 
